@@ -1,0 +1,22 @@
+1.1:
+My Algo: Create a hash-map of booleans and initalize all values to be true and flip them to false
+once I hash into that index. Do a check if there exist a false in that index if so, then not unique and
+return a false;
+1.2: 
+My Algo: Given two strings (a,b) we would map all the letters of the longest of the two strings onto a 
+hashmap of booleans and check all the chars to see if they exist within this hashmap. We would also have to check
+how many occurances of the same letter. (So one can't have 3 a's while the mapped out letter has only access to 1 a)
+1.3:
+My algo: Iterate through the entire string and literally just replace any index with a whitespace (since in c++ the
+string is treated as an array) with the %20
+1.4:
+My algo: Create two pointers that start from the begining and end and meet at the middle. Iterate through 
+and make sure that at every instance the pointer's values are the same if not return false. If at the middle
+return true.
+1.5: 
+My Algo: Have a counter that will immediately return false if the value gets to 2. Initalize it at zero. Iterate
+through the length of the small string's size and add 1 to the counter for every difference encountered. At the end 
+return true 
+1.6: 
+My algo: Iterate through the string and have a current letter holder and keep a counter that will restart if the current
+poisition is a different character than the holder. Then create a new string that concates the value and number of occurances

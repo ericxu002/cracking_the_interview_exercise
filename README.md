@@ -1,1 +1,1 @@
-# cracking_the_interview_exercise
+# This is where I write out my notes and ideas for the cracking the interview booklet
